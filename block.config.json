@@ -1,0 +1,13 @@
+{
+  "name": "uicontainer11",
+  "type": "ui-container",
+  "source": {
+    "https": "https://github.com/nikhilvneoito/uicontainer11",
+    "ssh": "git@github.com:nikhilvneoito/uicontainer11.git"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
